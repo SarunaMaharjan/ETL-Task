@@ -34,8 +34,8 @@ Clone the repository to your local machine.
 Modify the PostgreSQL connection settings in the ETL script to include your database credentials.
 
 ## About Files
-json_files/ - Contains the MongoDB collections data in JSON format.
-Extract.ipynb - Jupyter notebook for data analysis and visualizations.
-db_script.sql - SQL script to create the necessary tables in PostgreSQL.
-db_load.sql - SQL queries to test and validate data after loading.
-db_que(1,2,3,4)/ - SQL query files for various analytical tasks.
+- **jsonfiles** :Contains the MongoDB collections data in JSON format.
+- **Extract.ipynb** :Jupyter notebook for data analysis and visualizations.
+- **db_script.sql** :SQL script to create the necessary tables in PostgreSQL.
+- **db_load.sql** :Testing and validating data after loading.
+- **db_que(1,2,3,4).sql** :SQL query files for various analytical tasks.
