@@ -35,7 +35,7 @@ Modify the PostgreSQL connection settings in the ETL script to include your data
 
 ## About Files
 - **jsonfiles** :Contains the MongoDB collections data in JSON format.
-- **Extract.ipynb** :Jupyter notebook for data analysis and visualizations.
+- **Extract.ipynb** :Jupyter notebook for data analysis, visualizations, extracting and transforming.
 - **db_script.sql** :SQL script to create the necessary tables in PostgreSQL.
 - **db_load.sql** :Testing and validating data after loading.
 - **db_que(1,2,3,4).sql** :SQL query files for various analytical tasks.
