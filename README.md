@@ -6,7 +6,7 @@ This project implements an ETL (Extract, Transform, Load) pipeline that processe
 - [Data Description](#data-description)
 - [Installation](#installation)
 - [Usage](#usage)
-- [About Files](#files)
+- [About Files](#about-files)
 
 
 
