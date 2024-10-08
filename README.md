@@ -6,9 +6,8 @@ This project implements an ETL (Extract, Transform, Load) pipeline that processe
 - [Data Description](#data-description)
 - [Installation](#installation)
 - [Usage](#usage)
-- [Files](#files)
-- [SQL Queries](#sql-queries)
-- [License](#license)
+- [About Files](#files)
+
 
 
 ## Data Description
@@ -30,3 +29,13 @@ The data set consists of anonymized sample data in JSON format. It includes the 
     - sqlalchemy
     - python-dotenv
 
+## Usage
+Clone the repository to your local machine.
+Modify the PostgreSQL connection settings in the ETL script to include your database credentials.
+
+## About Files
+json_files/ - Contains the MongoDB collections data in JSON format.
+Extract.ipynb - Jupyter notebook for data analysis and visualizations.
+db_script.sql - SQL script to create the necessary tables in PostgreSQL.
+db_load.sql - SQL queries to test and validate data after loading.
+db_que(1,2,3,4)/ - SQL query files for various analytical tasks.
