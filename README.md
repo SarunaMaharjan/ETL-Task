@@ -12,7 +12,7 @@ This project implements an ETL (Extract, Transform, Load) pipeline that processe
 
 ## Data Description
 
-The data set consists of anonymized sample data in JSON format. It includes the following collections:
+The data set consists of following collections:
 - **clients**: Information about our clients.
 - **suppliers**: Information on the web shops we search for pricing data.
 - **sonar_runs**: Price research for a client, performed by our scraping framework, Sonar.
@@ -30,8 +30,7 @@ The data set consists of anonymized sample data in JSON format. It includes the 
     - python-dotenv
 
 ## Usage
-Clone the repository to your local machine.
-Modify the PostgreSQL connection settings in the ETL script to include your database credentials.
+Modification needed for the PostgreSQL connection settings in the ETL function.
 
 ## About Files
 - **jsonfiles** :Contains the MongoDB collections data in JSON format.
