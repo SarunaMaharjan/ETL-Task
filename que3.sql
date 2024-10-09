@@ -7,3 +7,5 @@ JOIN clients c ON srn.client_id = c._id
 GROUP BY c.name
 ORDER BY total_results ASC;
 
+
+--This query counts the total number of results associated with each customer in the clients table.

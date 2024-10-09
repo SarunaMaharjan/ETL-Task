@@ -6,3 +6,4 @@ JOIN suppliers s ON sr.supplier_id = s._id
 GROUP BY s.country
 ORDER BY total_results ASC;
 
+--This is providing insight of how many results come from each country
