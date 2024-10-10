@@ -6,4 +6,4 @@ GROUP BY part_id , supplier_id
 ORDER BY total_results DESC;
 
 
---Here total_results shows which part-supplier combinations have the most results.
+--Here total_results carries total count of part-supplier combinations with the most results.

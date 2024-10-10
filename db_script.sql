@@ -1,5 +1,5 @@
 
-
+-- Create Clients Table
 CREATE TABLE clients (
     _id TEXT PRIMARY KEY,  
     client_name VARCHAR,  
